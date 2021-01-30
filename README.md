@@ -1,6 +1,9 @@
 # Home-Automation-System-PIC18F4520
 This program was designed and developed in **C language** using PIC18F4520 microchip
 
+## Program Objectives
+The system utilse various sensor that is placed around the property. When it is armed, intrusion were to occured, it will makes calls and inform owners and relevant authories. Otherwise when the system is disenaged. It serves as an automatic engergy saving system.
+
 ## How the program runs
 When the system is boot up, it will prompt the user to press “A” from the keypad to key in password. There is a limit of three attempts. For every incorrect key input, it will registered as one attempt and will keep track of the number of attemps. If the attempt is used up, a buzzer will sound and it will display text on the LCD that calls is sent. 
 
